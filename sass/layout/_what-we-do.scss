@@ -24,6 +24,9 @@
   height: 294px;
 }
 .what-we-do-description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: absolute;
   left: 0;
   bottom: 0px;
@@ -37,6 +40,6 @@
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
-  padding: 27px 82px 27px 83px;
+  // padding: 27px 82px 27px 83px;
   color: var(--accent-color-secondary);
 }
